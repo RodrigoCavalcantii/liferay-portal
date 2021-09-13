@@ -32,11 +32,29 @@
 			margin: auto;
 			width: 0.5rem;
 		}
+
+		&.partially { 
+			color: $primary-default-light;
+			cursor: pointer;
+			opacity: 0.7;
+			overflow: visible;
+
+			i::after {
+				background: $primary-default-light;
+				border-radius: 1rem;
+				height: 0.8rem;
+				width: 0.8rem;
+			}
+
+			.progress-ring {
+				opacity: 0.7;
+				overflow: visible;
+				position: absolute;
+				z-index: 1;
+			}
+		}
 	
 		&.completed {
-			color: $primary-default-light;
-			opacity: 0.7;
-
 			i {
 				display: none;
 			}
@@ -60,15 +78,7 @@
 		&.selected {
 			color: $primary-default-light;
 			opacity: 1;
-			overflow: visible;
-	
-			.progress-ring {
-				opacity: 0.7;
-				overflow: visible;
-				position: absolute;
-				z-index: 1;
-			}
-	
+			
 			i::after {
 				background: $primary-default-light;
 				border-radius: 1rem;
