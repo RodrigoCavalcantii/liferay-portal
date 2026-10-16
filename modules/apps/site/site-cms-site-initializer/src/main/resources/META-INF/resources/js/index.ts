@@ -88,6 +88,7 @@ export {default as OverdueReviewsFDSPropsTransformer} from './main_view/props_tr
 export {default as PendingWorkflowsFDSPropsTransformer} from './main_view/props_transformer/PendingWorkflowsFDSPropsTransformer';
 export {default as RecycleBinFDSPropsTransformer} from './main_view/props_transformer/RecycleBinFDSPropsTransformer';
 export {default as RelatedAssetsFDSPropsTransformer} from './main_view/props_transformer/RelatedAssetsFDSPropsTransformer';
+export {default as ScheduledContentFDSPropsTransformer} from './main_view/props_transformer/ScheduledContentFDSPropsTransformer';
 export {default as SharedWithMeFDSPropsTransformer} from './main_view/props_transformer/SharedWithMeFDSPropsTransformer';
 export {default as SitesFDSPropsTransformer} from './main_view/props_transformer/SitesFDSPropsTransformer';
 export {default as StructureUsagesFDSPropsTransformer} from './main_view/props_transformer/StructureUsagesFDSPropsTransformer';
