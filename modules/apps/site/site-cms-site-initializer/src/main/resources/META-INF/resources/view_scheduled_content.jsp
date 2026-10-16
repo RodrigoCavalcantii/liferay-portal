@@ -19,6 +19,13 @@ ViewScheduledContentSectionDisplayContext viewScheduledContentSectionDisplayCont
 		/>
 	</div>
 
+	<div>
+		<react:component
+			module="{UpcomingPublicationsAlert} from site-cms-site-initializer"
+			props="<%= viewScheduledContentSectionDisplayContext.getScheduledContentProps() %>"
+		/>
+	</div>
+
 	<div class="cms-section custom-empty-state">
 		<frontend-data-set:headless-display
 			additionalProps="<%= viewScheduledContentSectionDisplayContext.getAdditionalProps() %>"
