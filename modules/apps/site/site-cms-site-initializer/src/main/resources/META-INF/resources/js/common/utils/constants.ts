@@ -108,6 +108,7 @@ export type WorkflowStatus =
 	(typeof WORKFLOW_STATUS)[keyof typeof WORKFLOW_STATUS];
 
 export const FDS_FILTER_ID = {
+	DATE_DISPLAY: 'dateDisplay',
 	DATE_EXPIRATION: 'dateExpiration',
 	DATE_MODIFIED: 'dateModified',
 	DATE_REVIEW: 'dateReview',

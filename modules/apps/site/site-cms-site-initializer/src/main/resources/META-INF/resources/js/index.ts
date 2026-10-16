@@ -110,6 +110,7 @@ export {default as styleDeleteAction} from './main_view/props_transformer/utils/
 export {default as transformFDSBulkActions} from './main_view/props_transformer/utils/transformFDSBulkActions';
 export {default as AllQuickFilters} from './main_view/quick_filters/AllQuickFilters';
 export {default as RecycleBinToolbar} from './main_view/recycle_bin/RecycleBinToolbar';
+export {default as ScheduledContentQuickFilters} from './main_view/scheduled_content/ScheduledContentQuickFilters';
 export {default as UpcomingPublicationsAlert} from './main_view/scheduled_content/UpcomingPublicationsAlert';
 export {default as AddSpaceMembers} from './main_view/spaces/AddSpaceMembers';
 export {default as NewSpace} from './main_view/spaces/NewSpace';
